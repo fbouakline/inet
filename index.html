@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
+    <script src="js/vue.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/data.js">
+
+    </script>
+  </head>
+
+  <body>
+    <div class="container" id="app">
+      <div class="row" v-if="showResult">
+        <div class="col-12">
+          {{countScore}} <span class="icon ion-checkmark-circled right"></span> {{totalQuestions-countScore}} <span class="icon ion-close-circled wrong"></span>
+
+        </div>
+        <div class="col-12">
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Vraag</th>
+                <th scope="col">Antwoord </th>
+                <th scope="col"><a href="#" style="color: black;" v-on:click="resetData"><span class="icon ion-home"></span></a> </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(result, index) in results" v-bind:class="{ 'table-danger': !result.isCorrect }">
+                <th scope="row">{{index+1}}</th>
+                <td>{{result.question}}</td>
+                <td>{{result.answer}}</td>
+                <td>
+                  <span class="icon ion-checkmark-circled right" v-if="result.isCorrect"></span>
+                  <span class="icon ion-close-circled wrong" v-else></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div v-else>
+        <div class="row">
+          <div class="offset-md-3 col-9">
+            <h6 class="text-right">{{questionCount}}/{{totalQuestions}}</h6>
+          </div>
+        </div>
+
+        <div class="row with-padding">
+          <div class="offset-md-3 col-6">
+            <div>
+               <h2>{{this.question}}</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 offset-md-3">
+            <div class="row">
+              <div class="col-10">
+                <p>Type het antwoord en druk op enter </p>
+              </div>
+              <div class="col-2">
+                <h6 class="text-right"><a href="#" v-on:click="skipQuestion" class="badge badge-primary">Skip</a></h6>
+              </div>
+            </div>
+            <input type="text" name="" value="" class="answer-input" v-model="userAnswer" v-on:keyup.enter="nextQuestion">
+          </div>
+          <div class="col-3">
+            <button v-on:click="nextQuestion" type="button" class="btn btn-lg btn-outline-success btn-next" >Volgende</button>
+          </div>
+        </div>
+
+        <div class="row with-padding" v-if="wrongAnswer">
+          <div class="col-6 offset-md-3">
+            <div class="alert alert-danger" role="alert">
+              <b>Fout!</b> het juiste antwoord is: <b>{{answer[0]}}</b>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
