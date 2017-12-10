@@ -383,6 +383,61 @@ const listOfQuestions =  [
       question: "Hoe worden computernetwerken die alleen een connectionless dient op de netwerklaag leveren genoemd?",
       answer: ["datagramnetwerken"]
     },
-
+    {
+      question: "Welke IP versie gebruikt een 32 bit adres?",
+      answer: ["IPv4"]
+    },
+    {
+      question: "Welke IP versie gebruikt een 128 bit adres?",
+      answer: ["IPv6"]
+    },
+    {
+      question: "Waar staat de afkorting TOS voor?",
+      answer: ["Type of service", "Type-of-service"]
+    },
+    {
+      question: "Uit hoeveel bits bestaat het versienummerveld van het IPv4-datagram?",
+      answer: ["4", "Vier"]
+    },
+    {
+      question: "Met welke veld kan IPv4 bepalen waar de gegevens in het datagram beginnen?",
+      answer: ["Headerlengteveld"]
+    },
+    {
+      question: "Uit hoeveel bits bestaat het het headerlengteveld?",
+      answer: ["4", "Vier"]
+    },
+    {
+      question: "Met welke veld kan het datagram verschillende 'types' IP-datagram van elkaar onderscheiden",
+      answer: ["Type of service", "type-of-service"]
+    },
+    {
+      question: "Welke veld geeft de totale lengte van het ip-datagram aan?",
+      answer: ["datagramlengteveld"]
+    },
+    {
+      question: "Uit hoeveel bits bestaat het datagramlengteveld?",
+      answer: ["16", "Zestien"]
+    },
+    {
+      question: "Waar staat de afkorting TTL voor?",
+      answer: ["Time-to-live"]
+    },
+    {
+      question: "Welke voorkomt dat een datagram eindeloos in het netwerk kan blijven rondzweven",
+      answer: ["TTL-veld"]
+    },
+    {
+      question: "Aan welke transport protocol wordt een pakket overhandigd als het protocol veld de waarde 6 heeft?",
+      answer: ["TCP"]
+    },
+    {
+      question: "Aan welke transport protocol wordt een pakket overhandigd als het protocol veld de waarde 17 heeft?",
+      answer: ["UDP"]
+    },
+    {
+      question: "Met welke veld kan de router fouten in een onvangen datagram detecteren?",
+      answer: ["Headerchecksum"]
+    },
 
 ]
