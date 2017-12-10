@@ -255,6 +255,135 @@ const listOfQuestions =  [
       question: "Wat heeft een server altijd?",
       answer: ["IP-adres"]
     },
+    {
+      question: "Noem een transportlaag protocol",
+      answer: ["TCP", "Transmission Control Protocol"]
+    },
+    {
+      question: "Bij welke laag hoort de TCP?",
+      answer: ["Transportlaag", "Transport"]
+    },
+    {
+      question: "Bij welke laag hoort de Internet Protocol?",
+      answer: ["Netwerklaag", "Netwerk"]
+    }
+    {
+      question: "Met wat wordt een host aangeduid?",
+      answer: ["IP-adres"]
+    },
+    {
+      question: "Is een IP-adres uniek?",
+      answer: ["Ja"]
+    },
+    {
+      question: "Welke poortnummer gebruikt een webserver?",
+      answer: ["80"]
+    },
+    {
+      question: "Met welke poortnummer werkt een emailserver dat gebruik maakt van SMTP?",
+      answer: ["25"]
+    },
+    {
+      question: "Waarin zijn de protocollen, die gratis gebruikt kunnen worden, vastgesteld?",
+      answer: ["RFC", "Request for Comments"]
+    },
+    {
+      question: "URL is een speciale vorm van wat?",
+      answer: ["URI"]
+    },
+    {
+      question: "Uit hoeveel objecten bestaat een webpagina die een HTML-tekst en vijf JPEG-afbeeldingen bevat?",
+      answer: ["6", "Zes"]
+    },
+    {
+      question: "Met behulp van wat zijn alle objecten die op een webserver staan adresseerbaar?",
+      answer: ["URL"]
+    },
+    {
+      question: "Wat is Apache?",
+      answer: ["Webserver"]
+    },
+    {
+      question: "Wat is Microsoft Internet Information Server?",
+      answer: ["Webserver"]
+    },
+    {
+      question: "Welke protocol gebruikt HTTP als onderliggend transportprotocol?",
+      answer: ["Transmission Control Protocol", "TCP"]
+    },
+    {
+      question: "Welke transportprotocol op het internet levert de dienst doorvoercapaciteit?",
+      answer: ["Geen"]
+    },
+    {
+      question: "Welke transportprotocol op het internet levert de dienst timing?",
+      answer: ["Geen"]
+    },
+    {
+      question: "Welke transportprotocol levert de dienst betrouwbare gegevensoverdracht?",
+      answer: ["Transmission Control Protocol", "TCP"]
+    },
+    {
+      question: "Hoe heet de verbinding waaarbij de server de TCP-verbinding intact laat nadat hij een respons heeft verzonden?",
+      answer: ["persistente verbinding"]
+    },
+    {
+      question: "Hoe heet de eerste regel van een HTTP-bericht?",
+      answer: ["requestregel"]
+    },
+    {
+      question: "Hoe heten de regels na de requestregel?",
+      answer: ["headerregels"]
+    },
+    {
+      question: "Welke waarde gebruik je voor de methodeveld als je een object wilt opvragen?",
+      answer: ["GET"]
+    },
+    {
+      question: "Welke waarde gebruik je om een HTTP-bericht terug te krijgen zonder de gevraagde object?",
+      answer: ["HEAD"]
+    },
+    {
+      question: "Met welke methode kan je een object naar een webserver uploaden?",
+      answer: ["PUT"]
+    },
+    {
+      question: "Met welke methode kan je een object op een webserver wissen?",
+      answer: ["DELETE"]
+    },
+    {
+      question: "Welke component van een HTTP-antwoordbericht bevat de opgevraagde object?",
+      answer: ["Entity body"]
+    },
+    {
+      question: "Welk getal geeft aan dat een DSN-bericht een antwoord is?",
+      answer: ["1"]
+    },
+    {
+      question: "Welk getal geeft aan dat een DSN-bericht een verzoek is?",
+      answer: ["0"]
+    },
+    {
+      question: "Wat voert een TCP uit wanneer er een driedubbel ACK-bericht arriveert?",
+      answer: ["Fast retransmit"]
+    },
+    {
+      question: "Hoe heet de variable die er voor zorgt dat de verzender een indicatie van de beschikbare ruimte in de buffer van de ontvanger krijgt?",
+      answer: ["Receivewindow"]
+    },
+    {
+      question: "Hoe heet de informatie over de belasting van het netwerk die naar de verzender wordt verzonden?",
+      answer: ["choke-packet"]
+    },
+    {
+      question: "Hoe worden computernetwerken die alleen een connectiondienst op de netwerklaag leveren genoemd?",
+      answer: ["virtueelcircuitnetwerken"]
+    },
+    {
+      question: "Hoe worden computernetwerken die alleen een connectionless dient op de netwerklaag leveren genoemd?",
+      answer: ["datagramnetwerken"]
+    },
+
 
 
 ]
