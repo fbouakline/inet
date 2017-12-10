@@ -266,7 +266,7 @@ const listOfQuestions =  [
     {
       question: "Bij welke laag hoort de Internet Protocol?",
       answer: ["Netwerklaag", "Netwerk"]
-    }
+    },
     {
       question: "Met wat wordt een host aangeduid?",
       answer: ["IP-adres"]
@@ -383,7 +383,6 @@ const listOfQuestions =  [
       question: "Hoe worden computernetwerken die alleen een connectionless dient op de netwerklaag leveren genoemd?",
       answer: ["datagramnetwerken"]
     },
-
 
 
 ]
