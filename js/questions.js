@@ -184,12 +184,77 @@ const listOfQuestions =  [
       answer: ["Netwerklaag", "Netwerk"]
     },
     {
-      question: "Hoe heet de laag onder de applicatielaag?",
-      answer: ["Transportlaag", "Transport"]
-    },
-    {
       question: "Hoe heet de laag onder de transportlaag?",
       answer: ["Netwerklaag", "Netwerk"]
-    }
+    },
+    {
+      question: "Hoe noemen we een pakket met informatie op de applicatielaag?",
+      answer: ["Message", "Bericht"]
+    },
+    {
+      question: "Hoe wordt een pakket op de transportlaag genoemd?",
+      answer:["Segment"]
+    },
+    {
+      question: "Hoe wordt een pakket op de netwerklaag genoemd?",
+      answer: ["Datagram"]
+    },
+    {
+      question: "Hoe wordt een pakket op de datalinklaag genoemd?",
+      answer: ["Frame"]
+    },
+    {
+      question: "Hoe wordt de totale hoeveelheid vetraging genoemd?",
+      answer: ["Nodal delay"]
+    },
+    {
+      question: "Waaruit bestaat een webpagina?",
+      answer: ["Objecten"]
+    },
+    {
+      question: "Noem één van de dominante netwerkapplicatie structuren.",
+      answer: ["Client-serverstructuur", "P2P-structuur"]
+    },
+    {
+      question: "Noem één van de belangrijkste protocollen voor het internet.",
+      answer: ["Transmission Control Protocol", "IP", "TCP", "Internet Protocol"]
+    },
+    {
+      question: "Kan een applicatie in de core van een netwerk uitgevoerd worden?",
+      answer: ["Nee"]
+    },
+    {
+      question: "Hoe heet de host die een bestand ophaalt bij een andere host?",
+      answer: ["Client"]
+    },
+    {
+      question: "Hoe heet de host die een bestand verzend naar een andere host?",
+      answer: ["Server"]
+    },
+    {
+      question: "Via wat krijgt een host toegang tot het internet?",
+      answer: ["Internet Service Provider", "ISP"]
+    },
+    {
+      question: "Welke netwerkapplicatie structuur gebruikt BitTorrent?",
+      answer: ["P2P-structuur"]
+    },
+    {
+      question: "Welke netwerkapplicatie structuur gebruikt een webapplicatie?",
+      answer: ["`Client-serverstructuur"]
+    },
+    {
+      question: "Welke host staat altijd aan?",
+      answer: ["Server"]
+    },
+    {
+      question: "Welke host dient een verzoek in bij een andere host?",
+      answer: ["Client"]
+    },
+    {
+      question: "Wat heeft een server altijd?",
+      answer: ["IP-adres"]
+    },
+
 
 ]
