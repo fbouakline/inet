@@ -241,7 +241,7 @@ const listOfQuestions =  [
     },
     {
       question: "Welke netwerkapplicatie structuur gebruikt een webapplicatie?",
-      answer: ["`Client-serverstructuur"]
+      answer: ["Client-serverstructuur"]
     },
     {
       question: "Welke host staat altijd aan?",
@@ -439,5 +439,18 @@ const listOfQuestions =  [
       question: "Met welke veld kan de router fouten in een onvangen datagram detecteren?",
       answer: ["Headerchecksum"]
     },
+    {
+      question: "Waar staat de afkorting ICANN voor?",
+      answer: ["Internet Corporation for Assigned Names and Numbers"]
+    },
+    {
+      question: "Waar staat de afkorting CIDR voor?",
+      answer: ["classless interdomain routing"]
+    },
+    {
+      question: "Noem een plug-and-playprotocol",
+      answer: ["DHCP"]
+    },
+
 
 ]
