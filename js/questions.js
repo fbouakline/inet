@@ -284,7 +284,7 @@ const listOfQuestions =  [
       answer: ["25"]
     },
     {
-      question: "Waarin zijn de protocollen, die gratis gebruikt kunnen worden, vastgesteld?",
+      question: "Waar zijn de protocollen, die gratis gebruikt kunnen worden, vastgesteld?",
       answer: ["RFC", "Request for Comments"]
     },
     {
