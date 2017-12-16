@@ -451,6 +451,35 @@ const listOfQuestions =  [
       question: "Noem een plug-and-playprotocol",
       answer: ["DHCP"]
     },
+    {
+      question: "Waar staat de afkorting IETF voor?",
+      answer : "Internet Engineering Task Force"
+    },
+    {
+      question: "Maakt IPv6 gebruik van fragmentatie",
+      answer: ["Nee"]
+    },
+    {
+      question: "Heeft IPv6 een headerchecksum veld?",
+      answer: ["Nee"]
+    },
+    {
+      question: "Welke protocol gebruikt het Packet Too Big type?",
+      answer: ["ICMPv6"]
+    },
+    {
+      question: "Waar staat de afkorting IGMP voor?",
+      answer: ["Internet Group Management Protocol"]
+    },
+    {
+      question: "Waar staat de afkorting VPN voor?",
+      answer: ["Virtual Private Network"]
+    },
+    {
+      question: "Noem een beveiligde IP.",
+      answer: ["IPsec"]
+    },
+
 
 
 ]
