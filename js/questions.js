@@ -479,7 +479,18 @@ const listOfQuestions =  [
       question: "Noem een beveiligde IP.",
       answer: ["IPsec"]
     },
-
+    {
+      question: "Met welke router is een host rechstreeks verbonden?",
+      answer: ["Default router", "first-hoprouter"]
+    },
+    {
+      question: "Hoe heet de default router van de verzendende host?",
+      answer: ["bronrouter"]
+    },
+    {
+      question: "Hoe heet de default router van de ontvangende host?",
+      answer: ["Bestemmingsrouter"]
+    },
 
 
 ]
