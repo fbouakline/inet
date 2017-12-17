@@ -491,6 +491,35 @@ const listOfQuestions =  [
       question: "Hoe heet de default router van de ontvangende host?",
       answer: ["Bestemmingsrouter"]
     },
+    {
+      question: "Waar staat de afkorting MAC voor?",
+      answer: ["Medium Access Control"]
+    },
+    {
+      question: "Waar staat de afkorting NIC voor?",
+      answer: ["Network Interface Card"]
+    },
+    {
+      question: "Hoe wordt de	snelheid,	waarmee	gegevens	worden	overgebracht, genoemd?",
+      answer: ["Transmissiesnelheid"]
+    },
+    {
+      question: "Wat wordt aan elke segment toegevoegd?",
+      answer: ["Headerbytes"]
+    },
+    {
+      question: "Welke protocol bepaalt de indeling van de verzonden en ontvangen packets tussen routers en hosts?",
+      answer: ["IP", "Internet Protocol"]
+    },
+    {
+      question: "Hoe heet een verzameling regels waaraan het verzendende programma?",
+      answer: ["API", "Application Programming Interface"]
+    },
+    {
+      question: "Hoe heet de eerste router op het pad naar een willekeurige andere host?",
+      answer: ["Edgerouter"]
+    },
+    
 
 
 ]
