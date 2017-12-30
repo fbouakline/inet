@@ -525,7 +525,7 @@ const listOfQuestions =  [
     },
     {
       question: "Waar staat de afkorting MIMO voor?",
-      answer: ["multiple-input-multiple-output"]
+      answer: ["multiple-input multiple-output"]
     },
     {
       question: "Waar staat de afkorting FDDI voor?",
@@ -559,7 +559,38 @@ const listOfQuestions =  [
       question: "Hoe wordt een loadbalancer ook wel genoemd?",
       answer: ["applicatieswitch"]
     },
-
+    {
+      question: "Waar staat de afkorting BSS voor?",
+      answer: ["Basic Service Set"]
+    },
+    {
+      question: "Uit hoeveel bytes bestaat een MAC-adres?",
+      answer: ["6"]
+    },
+    {
+      question: "Uit hoeveel bites bestaat een MAC-adres?",
+      answer: ["48"]
+    },
+    {
+      question: "Wie beheert de MAC-adressen?",
+      answer: ["IEEE"]
+    },
+    {
+      question: "Waar staat de afkorting VANET voor?",
+      answer: ["Vehicular ad hoc network"]
+    },
+    {
+      question: "Waar staat de afkorting MANET voor?",
+      answer: ["Mobile ad hoc network"]
+    },
+    {
+      question: "Welke onderdeel is verantwoordelijk voor het verzenden en ontvangen van gegevens naar en van een draadloze host.",
+      answer: ["basisstation"]
+    },
+    {
+      question: "Onder welke naam is het IEEE 802.11 draadloze netwerk bekend?",
+      answer: ["Wifi"]
+    },
 
 
 ]
