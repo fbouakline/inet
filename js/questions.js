@@ -376,11 +376,11 @@ const listOfQuestions =  [
       answer: ["choke-packet"]
     },
     {
-      question: "Hoe worden computernetwerken die alleen een connectiondienst op de netwerklaag leveren genoemd?",
+      question: "Hoe worden computernetwerken, die alleen een connection oriented dienst op de netwerklaag leveren, genoemd?",
       answer: ["virtueelcircuitnetwerken"]
     },
     {
-      question: "Hoe worden computernetwerken die alleen een connectionless dient op de netwerklaag leveren genoemd?",
+      question: "Hoe worden computernetwerken, die alleen een connectionless dienst op de netwerklaag leveren, genoemd?",
       answer: ["datagramnetwerken"]
     },
     {
