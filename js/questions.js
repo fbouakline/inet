@@ -519,7 +519,47 @@ const listOfQuestions =  [
       question: "Hoe heet de eerste router op het pad naar een willekeurige andere host?",
       answer: ["Edgerouter"]
     },
-    
+    {
+      question: "Waar staat de afkorting IoT voor?",
+      answer: ["Internet of Things"]
+    },
+    {
+      question: "Waar staat de afkorting MIMO voor?",
+      answer: ["multiple-input-multiple-output"]
+    },
+    {
+      question: "Waar staat de afkorting FDDI voor?",
+      answer: ["Fiber Distributed Data Interface"]
+    },
+    {
+      question: "Waar staat de afkorting DOCSIS voor?",
+      answer: ["Data-Over-Cable Service Interface Specifications"]
+    },
+    {
+      question: "Waar staat de afkorting CSMA voor?",
+      answer: ["Carrier-sense multiple access"]
+    },
+    {
+      question: "Waar staat de afkorting CSMA/CD voor?",
+      answer: ["Carrier-sense multiple access with collision detection"]
+    },
+    {
+      question: "Hoe worden hosts in een datacenter genoemd?",
+      answer: ["Blades"]
+    },
+    {
+      question: "Waar staat de afkorting TOR voor?",
+      answer: ["top-of-rack"]
+    },
+    {
+      question: "Hoe heet de routers die het datacenternetwerk verbinden met het internet",
+      answer: ["borderrouteers"]
+    },
+    {
+      question: "Hoe wordt een loadbalancer ook wel genoemd?",
+      answer: ["applicatieswitch"]
+    },
+
 
 
 ]
