@@ -591,6 +591,35 @@ const listOfQuestions =  [
       question: "Onder welke naam is het IEEE 802.11 draadloze netwerk bekend?",
       answer: ["Wifi"]
     },
+    {
+      question: "Waar staat de afkorting SSID voor?",
+      answer: ["Service Set Identifier"]
+    },
+    {
+      question: "Hoe noem je een applicatie die uitgevoerd wordt binnen een host?",
+      answer: ["Proces"]
+    },
+    {
+      question: "Hoe noem je een interface tussen de applicatielaag en de transportlaag?",
+      answer: ["Socket"]
+    },
+    {
+      question: "Hoe noem je een machines die informatie opslaan en distribueren",
+      answer: ["Servers"]
+    },
+    {
+      question: "Hoe heet de snelheid waarmee gegevens worden overgebracht?",
+      answer: ["Transmissiesnelheid"]
+    },
+    {
+      question: "Hoe worden applicaties waarbij verschillende hosts gegevens uitwisselen met elkaar genoemd?",
+      answer: ["Gedistribueerde	applicaties"]
+    },
+    {
+      question: "Hoe wordt de verzameling regels waaraan het	verzendende	programma	moet voldoen genoemd?",
+      answer: ["API", "Application	Programming	Interface"]
+    },
+
 
 
 ]
