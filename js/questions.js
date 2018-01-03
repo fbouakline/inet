@@ -619,7 +619,30 @@ const listOfQuestions =  [
       question: "Hoe wordt de verzameling regels waaraan het	verzendende	programma	moet voldoen genoemd?",
       answer: ["API", "Application	Programming	Interface"]
     },
-
+    {
+      question: "Waar staat de afkorting RTS voor?",
+      answer: ["Request to Send"]
+    },
+    {
+      question: "Waar staat de afkorting CTS voor?",
+      answer: ["Clear to Send"]
+    },
+    {
+      question: "Wat is een gevolg van het feit dat een buffercapiciteit eindig is?",
+      answer: ["Packetverlies"]
+    },
+    {
+      question: "Hoe wordt de	tijd	dat	het	packet	moet	wachten	in	de	buffer genoemd?",
+      answer: ["Queuing	delay"]
+    },
+    {
+      question: "Hoe wordt de	tijd	die	de	router	nodig	heeft	om	een	packet	aan	te	nemen	en	weer	te	verzenden genoemd?",
+      answer: ["Transmission delay"]
+    },
+    {
+      question: "Hoe wordt de	tijd	die	nodig	is	om	een	bit	te	verplaatsen	tussen	2	routers genoemd?",
+      answer: ["Propagation delay"]
+    },
 
 
 ]
