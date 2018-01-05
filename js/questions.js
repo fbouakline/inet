@@ -643,6 +643,30 @@ const listOfQuestions =  [
       question: "Hoe wordt de	tijd	die	nodig	is	om	een	bit	te	verplaatsen	tussen	2	routers genoemd?",
       answer: ["Propagation delay"]
     },
-
+    {
+      question: "In welke hardware component wordt de datalinklaag geimplementeerd?",
+      answer: ["Netwerkadaptar", "Network Interface Card", "NIC"]
+    },
+    {
+      question: "Hoe wordt elke apparaat dat een datalinklaagprotocol uitvoert genoemd?",
+      answer: ["Node"]
+    },
+    {
+      question: "Hoe heet een pakketje dat bestaat uit een datagram ingekapseld door de verzendende node met datalinklaagheader?",
+      answer: ["Frame"]
+    },
+    {
+      question: "In welke hardware component is een netwerkadaptar geintegreerd?",
+      answer: ["Moederbord"]
+    },
+    {
+      question: "Hoe heet het hart van de netwerkadaptar?",
+      answer: ["Datalinklaagcontroller"]
+    },
+    {
+      question: "Kan de tweedimensionale pariteitsmethode fouten corrigeren?",
+      answer: ["Ja"]
+    },
+    
 
 ]
