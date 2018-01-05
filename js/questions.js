@@ -452,10 +452,6 @@ const listOfQuestions =  [
       answer: ["DHCP"]
     },
     {
-      question: "Waar staat de afkorting IETF voor?",
-      answer : "Internet Engineering Task Force"
-    },
-    {
       question: "Maakt IPv6 gebruik van fragmentatie",
       answer: ["Nee"]
     },
@@ -667,6 +663,10 @@ const listOfQuestions =  [
       question: "Kan de tweedimensionale pariteitsmethode fouten corrigeren?",
       answer: ["Ja"]
     },
-    
+    {
+      question: "Waar staat de afkorting IETF",
+      answer: ["Internet Engineering Task Force"]
+    },
+
 
 ]
