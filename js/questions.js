@@ -424,7 +424,7 @@ const listOfQuestions =  [
       answer: ["Time-to-live"]
     },
     {
-      question: "Welke voorkomt dat een datagram eindeloos in het netwerk kan blijven rondzweven",
+      question: "Welke veld voorkomt dat een datagram eindeloos in het netwerk kan blijven rondzweven",
       answer: ["TTL-veld"]
     },
     {
@@ -452,7 +452,7 @@ const listOfQuestions =  [
       answer: ["DHCP"]
     },
     {
-      question: "Maakt IPv6 gebruik van fragmentatie",
+      question: "Maakt IPv6 gebruik van fragmentatie?",
       answer: ["Nee"]
     },
     {
@@ -549,7 +549,7 @@ const listOfQuestions =  [
     },
     {
       question: "Hoe heet de routers die het datacenternetwerk verbinden met het internet",
-      answer: ["borderrouteers"]
+      answer: ["borderrouters"]
     },
     {
       question: "Hoe wordt een loadbalancer ook wel genoemd?",
@@ -628,15 +628,15 @@ const listOfQuestions =  [
       answer: ["Packetverlies"]
     },
     {
-      question: "Hoe wordt de	tijd	dat	het	packet	moet	wachten	in	de	buffer genoemd?",
+      question: "Hoe wordt de tijd dat het packet moet wachten in de buffer genoemd?",
       answer: ["Queuing	delay"]
     },
     {
-      question: "Hoe wordt de	tijd	die	de	router	nodig	heeft	om	een	packet	aan	te	nemen	en	weer	te	verzenden genoemd?",
+      question: "Hoe wordt de tijd die de router nodig heeft om een packet aan te nemen en weer te verzenden genoemd?",
       answer: ["Transmission delay"]
     },
     {
-      question: "Hoe wordt de	tijd	die	nodig	is	om	een	bit	te	verplaatsen	tussen	2	routers genoemd?",
+      question: "Hoe wordt de tijd die nodig is om een bit te verplaatsen tussen 2 routers genoemd?",
       answer: ["Propagation delay"]
     },
     {
@@ -664,8 +664,40 @@ const listOfQuestions =  [
       answer: ["Ja"]
     },
     {
-      question: "Waar staat de afkorting IETF",
+      question: "Waar staat de afkorting IETF voor?",
       answer: ["Internet Engineering Task Force"]
+    },
+    {
+      question: "Hoe worden alle protocollen in de verschillende lagen samen genoemd?",
+      answer: ["Protocolstack"]
+    },
+    {
+      question: "Hebben clients in de client-serverstructuur rechtstreekse communicatie met elkaar?",
+      answer: ["Nee"]
+    },
+    {
+      question: "Hoe worden periodiek verbonden hosts genoemd?",
+      answer: ["Peers", "Peer"]
+    },
+    {
+      question: "Welke proces wacht tot er contect met hem gemaakt wordt?",
+      answer: ["Server"]
+    },
+    {
+      question: "Welke proces maakt eerst contact?",
+      answer: ["Client"]
+    },
+    {
+      question: "Hoet heet de interface die een proces toelaat berichten te verzenden/ontvangen van het netwerk?",
+      answer: ["Socket"]
+    },
+    {
+      question: "Waar staat de afkorting SSL voor?",
+      answer: ["Secure Socket Layer"]
+    },
+    {
+      question: "Waar staat de afkorting TLS voor?",
+      answer: ["Transport Layer Security"]
     },
 
 
