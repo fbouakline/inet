@@ -376,11 +376,11 @@ const listOfQuestions =  [
       answer: ["choke-packet"]
     },
     {
-      question: "Hoe worden computernetwerken, die alleen een connection oriented dienst op de netwerklaag leveren, genoemd?",
+      question: "Hoe worden computernetwerken die alleen een connection oriented dienst leveren op de netwerklaag genoemd?",
       answer: ["virtueelcircuitnetwerken"]
     },
     {
-      question: "Hoe worden computernetwerken, die alleen een connectionless dienst op de netwerklaag leveren, genoemd?",
+      question: "Hoe worden computernetwerken die alleen een connectionless dienst leveren op de netwerklaag genoemd?",
       answer: ["datagramnetwerken"]
     },
     {
@@ -699,6 +699,39 @@ const listOfQuestions =  [
       question: "Waar staat de afkorting TLS voor?",
       answer: ["Transport Layer Security"]
     },
+    {
+      question: "Hoe heet de bewerking die zich in de router afspeelt waarbij een pakket van een ingaande interface naar een uitgaande interface wordt verplaatst?",
+      answer: ["forwarding"]
+    },
+    {
+      question: "Hoe heet het proces waarmee het pad van een pakket tussen de verzender en ontvanger wordt bepaald?",
+      answer: ["Routering"]
+    },
+    {
+      question: "Welke host maakt een datagram van een segment?",
+      answer: ["Verzendende host", "Verzendende"]
+    },
+    {
+      question: "Welke host haalt het segment uit het datagram en geeft dit door aan de transportlaag?",
+      answer: ["Ontvangende host", "Ontvangende"]
+    },
+    {
+      question: "Welke tabel bepaalt welke pad het pakket zal doorverzonden worden?",
+      answer: ["Forwardingtabel"]
+    },
+    {
+      question: "Welke dienst levert de netwerklaag op het Internet?",
+      answer: ["Best-Effort"]
+    },
+    {
+      question: "Welke netwerk component houd de statusinformatie bij?",
+      answer: ["Router"]
+    },
+    {
+      question: "Hoe worden de berichten genoemd waarmee de host het netwerk vraagt een verbinding te maken of te verbreken?",
+      answer: ["Signaalberichten"]
+    },
+
 
 
 ]
